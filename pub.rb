@@ -28,4 +28,11 @@ class Pub
     end
   end
 
+  def level_of_drunkenness(alcohol_level)
+    if alcohol_level <= 10
+      return true
+    else
+      return false
+    end
+  end
 end

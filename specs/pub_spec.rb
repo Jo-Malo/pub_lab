@@ -34,4 +34,9 @@ class TestPub < MiniTest::Test
     assert_equal(true, result)
   end
 
+  def test_level_of_drunkenness
+    result = @pub.level_of_drunkenness(@drink.alcohol_level)
+    assert_equal(true, result)
+  end
+
 end
