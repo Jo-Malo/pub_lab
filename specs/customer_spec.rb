@@ -28,4 +28,9 @@ class TestCustomer < MiniTest::Test
     assert_equal(30, @customer.age)
   end
 
+  def test_drunkenness_level
+    result = @customer.drunkenness_level(@drink.alcohol_level)
+    assert_equal(1.5, result)
+  end
+
 end
