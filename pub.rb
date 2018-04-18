@@ -16,6 +16,9 @@ class Pub
     return @drinks.count
   end
 
+  def money_to_till(price)
+    @till += price
+  end
 
 
 end
