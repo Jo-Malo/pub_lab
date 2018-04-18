@@ -8,7 +8,7 @@ class TestPub < MiniTest::Test
 
   def setup
     @pub = Pub.new("Beer Garden")
-    @drink = Drink.new("Lager", 2.00)
+    @drink = Drink.new("Lager", 2.00, 1.5)
     @customer = Customer.new("Rory", 50.00, 30)
   end
 
